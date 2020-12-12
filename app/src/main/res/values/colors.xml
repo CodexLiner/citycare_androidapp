@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3ADDCE</color>
+    <color name="colorPrimaryDark">#000205</color>
+    <color name="colorAccent">#757575</color>
+    <color name="fragmentbackground">#E4DCDD</color>
+    <color name="colorheader">#029C99</color>
+    <color name="ColorPrimary">#00897B</color>
+    <color name="ColorPrimaryDark">#00695C</color>
+    <color name="background">#dddddd</color>
+
+    <!-- DOCOTRS,PHARMACY AND HOSPITAL CELL COLORS  -->
+    <color name="cell_title_color">#1D1D1D</color>
+    <color name="cell_description_color">@color/colorAccent</color>
+    <color name="cell_rating_title_color">@color/cell_description_color</color>
+    <color name="cell_distance_title_color">@color/cell_description_color</color>
+    <color name="cell_distance_color">#1D1D1D</color>
+
+    <!--Settings for Error dialog colors  -->
+    <color name="errordialogbgcolor">#FFF</color>
+    <color name="errordialogstrokecolor">#F20020</color>
+    <color name="errormessagecolor">#ffffff</color>
+    <color name="errormessagecolorhead">#000000</color>
+    <color name="errortextconfirmcolor">#000000</color>
+    <color name="errorbackgroundconfirmcolor">#ffffff</color>
+    <color name="pharmacycolor">#057F12</color>
+    <color name="docotorcolor">#1EBEA5</color>
+    <color name="hospitalcolor">#C65A38</color>
+    <color name="about_us_background">#E7E6E6</color>
+    <color name="splashcolor">#009688</color>
+
+    <!--doctor cell rating bar color-->
+    <color name="coloractivated">#9C27B0</color>
+    <color name="coloractivatedyellow">#E8B301</color>
+    <color name="colordisable">#d8d6d6</color>
+
+</resources>

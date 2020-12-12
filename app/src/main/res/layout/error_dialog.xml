@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="320dp"
+    android:background="@drawable/curveshape"
+    app:cardBackgroundColor="#F9FBFD"
+    app:cardCornerRadius="12dp"
+    android:elevation="3dp"
+    app:cardUseCompatPadding="true"
+    android:layout_height="wrap_content"
+    tools:ignore="UnusedAttribute"
+    android:foreground="?android:attr/selectableItemBackgroundBorderless">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/img_cancel"
+            android:layout_width="310dp"
+            android:layout_height="118dp"
+            android:layout_marginTop="-24dp"
+            android:background="@drawable/layoutdialogerror"
+            android:padding="8dp"
+            android:src="@drawable/err2"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/txt_dialog_title"
+            android:layout_width="309dp"
+            android:layout_height="0dp"
+            android:layout_below="@+id/img_cancel"
+            android:layout_marginTop="170dp"
+            android:fontFamily="@font/raleway"
+            android:gravity="center"
+            android:text="@string/error_txt"
+            android:textColor="@color/errormessagecolorhead"
+            android:textSize="24dp"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/txt_error_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_dialog_title"
+            android:layout_marginTop="-157dp"
+            android:fontFamily="@font/raleway"
+            android:gravity="center"
+            android:text="@string/errormessage"
+            android:textColor="@color/errormessagecolorhead"
+            android:textSize="20sp"
+            tools:ignore="SpUsage" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txt_error_description"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/okbtn"
+            android:fontFamily="@font/raleway"
+            android:gravity="center"
+            android:text="@string/errorconfirm"
+            android:textColor="@color/errortextconfirmcolor"
+            android:textSize="20dp"
+            tools:ignore="SpUsage" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
